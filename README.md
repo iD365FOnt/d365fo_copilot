@@ -1,8 +1,8 @@
-# Copilot Actions for Dynamics 365 Finance and Operations Add-in
+# Copilot Actions for Dynamics 365 Finance and Operations Add-in (in construction)
 
 ## Description
 
-The "Copilot Actions for Dynamics 365 Finance and Operations Add-in" is a Visual Studio extension designed to enhance user experience and productivity within Dynamics 365 Finance and Operations. It offers additional functionalities tailored to streamline workflows and facilitate development processes.
+The "Copilot Actions for Dynamics 365 Finance and Operations Add-in" is a Visual Studio extension designed to streamline the creation of classes responsible for triggering actions within the Dynamics 365 Finance and Operations (D365FO) environment. By utilizing an intuitive form-based interface, this add-in generates the necessary code, simplifying the development process for D365FO integrations and extensions.
 
 ![Captura de pantalla 2024-03-20 174353](https://github.com/iD365FOnt/d365fo_copilot/assets/103633861/71a12b37-153d-4cc3-b5d2-ff463646d911)
 
