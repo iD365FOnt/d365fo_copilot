@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CopilotParams" targetNamespace="http://tempuri.org/CopilotParams.xsd" xmlns:mstns="http://tempuri.org/CopilotParams.xsd" xmlns="http://tempuri.org/CopilotParams.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CopilotParams" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="CopilotParams" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="CopilotParams">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CopilotParams" msprop:Generator_RowEvHandlerName="CopilotParamsRowChangeEventHandler" msprop:Generator_RowDeletedName="CopilotParamsRowDeleted" msprop:Generator_RowDeletingName="CopilotParamsRowDeleting" msprop:Generator_RowEvArgName="CopilotParamsRowChangeEvent" msprop:Generator_TablePropName="_CopilotParams" msprop:Generator_RowChangedName="CopilotParamsRowChanged" msprop:Generator_UserTableName="CopilotParams" msprop:Generator_RowChangingName="CopilotParamsRowChanging" msprop:Generator_RowClassName="CopilotParamsRow" msprop:Generator_TableClassName="CopilotParamsDataTable" msprop:Generator_TableVarName="tableCopilotParams">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ParameterName" msprop:Generator_ColumnPropNameInTable="ParameterNameColumn" msprop:Generator_ColumnPropNameInRow="ParameterName" msprop:Generator_UserColumnName="ParameterName" msprop:Generator_ColumnVarNameInTable="columnParameterName" type="xs:string" />
+              <xs:element name="ParameterType" msprop:Generator_ColumnPropNameInTable="ParameterTypeColumn" msprop:Generator_ColumnPropNameInRow="ParameterType" msprop:Generator_UserColumnName="ParameterType" msprop:Generator_ColumnVarNameInTable="columnParameterType" type="xs:string" minOccurs="0" />
+              <xs:element name="Purpose" msprop:Generator_ColumnPropNameInTable="PurposeColumn" msprop:Generator_ColumnPropNameInRow="Purpose" msprop:Generator_UserColumnName="Purpose" msprop:Generator_ColumnVarNameInTable="columnPurpose" type="xs:string" minOccurs="0" />
+              <xs:element name="Required" msprop:Generator_ColumnPropNameInTable="RequiredColumn" msprop:Generator_ColumnPropNameInRow="Required" msprop:Generator_UserColumnName="Required" msprop:Generator_ColumnVarNameInTable="columnRequired" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="parameterName" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CopilotParams" />
+      <xs:field xpath="mstns:ParameterName" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
