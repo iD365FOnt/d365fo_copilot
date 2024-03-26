@@ -1,5 +1,8 @@
 # Copilot Actions for Dynamics 365 Finance and Operations Add-in (in construction)
 
+[![N|Copilot](
+https://static.wixstatic.com/media/6fb605_3047b77a494145c9962c0b41cef288c6~mv2.jpg/v1/crop/x_3,y_0,w_1876,h_856/fill/w_500,h_250,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo_id365font.jpg)](https://www.id365font.com/)
+
 ## Table of Contents
 1. [Description](#description)
 2. [Installation](#installation)
