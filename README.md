@@ -1,6 +1,9 @@
 # Copilot Actions for Dynamics 365 Finance and Operations Add-in (in construction)
 
-[[_TOC_]]
+## Table of Contents
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
 
 ## Description
 
